@@ -4,7 +4,7 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize('just_tech_news_db', 'root', 'hellafarted', {
   host: 'localhost',
   dialect: 'mysql',
-  port: '3306'
+  port: '3001'
 })
 
 module.exports = sequelize;
